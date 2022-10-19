@@ -1,0 +1,5 @@
+.highway__container-rectangle {
+  max-width: 650px;
+  max-height: 400px;
+  position: relative;
+}

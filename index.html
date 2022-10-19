@@ -2,30 +2,90 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Сompetitions-bikes</title>
-	<link rel="stylesheet" href="./pages/index.css">
-	<meta name="description" content="Сайт посвящен велотрассам, велосипедам и тренировкам.">
-	<meta name="keywords" content="Шоссе, ТТ, грэвел, велосипеды, тренировки.">
-	<meta name="author" content="">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сompetitions-bikes</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="description" content="Сайт посвящен велотрассам, велосипедам и тренировкам.">
+  <meta name="keywords" content="Шоссе, ТТ, грэвел, велосипеды, тренировки.">
+  <meta name="author" content="">
 </head>
 
 <body class="root">
-	<!-- Шапка сайта, блок header -->
-	<header class="header">
+  <!-- Шапка сайта, блок header -->
+  <header class="header">
+    <nav>
+      <ul class="header__menu list">
+        <li class="link">Покрытия и градиенты</li>
+        <li class="link">Велосипеды</li>
+        <li class="link">Тренировки</li>
+      </ul>
+    </nav>
+  </header>
 
-	</header>
+  <!-- Начало основного содержимого страницы, блок content -->
+  <main class="content">
+    <!-- Секция general -->
+    <section class="general">
+      <div>
+        <h1 class="decoration-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+        <p class="decoration-text">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
+          маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+        <a class="button link" href="#" target="_blank">Подробнее</a>
+        <div class="general__container">
+          <p class="general__subtext">Cannondale Systemsix</p>
+          <div class="general__line"></div>
+        </div>
+      </div>
+      <div class="general__block-pic">
+        <img class="general__pic" src="./images/Section-1.jpg" alt="Трасса-в-лесу">
+      </div>
+    </section>
+    <!-- Секция quote -->
+    <section class="quote">
+      <img class="quote__pic" src="./images/Section-2.jpg" alt="Велосипедист в горах">
+      <div>
+        <blockquote class="quote__title">&laquo;Катайся много или мало, долго или коротко, как хочешь&nbsp;&mdash;
+          но&nbsp;катайся&raquo;</blockquote>
+        <h3 class="quote__quote-author">Эдди Меркс</h3>
+        <p class="quote__quote-author-subline">Велогонщик</p>
+      </div>
+    </section>
+    <!-- Секция highway -->
+    <section class="highway">
+      <h2 class="decoration-title">Шоссе</h2>
+      <p class="decoration-text">На&nbsp;шоссейном велосипеде можно ездить по асфальту на&nbsp;разных градиентах:
+        будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно
+        и&nbsp;самостоятельно.</p>
+      <ul class="highway__pic-container list">
+        <li>
+          <div class="highway__container-rectangle">
+            <img class="highway__pic" src="./images/Section-3.jpg" alt="Трасса по серпантину.">
+            <img class="highway__rectangle" src="./images/Rectangle.svg">
+          </div>
+        </li>
+        <li>
+          <img class="highway__pic-hidden" src="./images/Section-3_2.jpg" alt="Трасса в лесу">
+        </li>
+      </ul>
+      <ul class="sliders list">
+        <li>
+          <img src="./images/sliders__left.svg" alt="Слайдер влево">
+        </li>
+        <li>
+          <img src="./images/sliders__right.svg" alt="Слайдер вправо">
+        </li>
+      </ul>
+    </section>
 
-	<!-- Начало основного содержимого страницы, блок content -->
-	<main class="content">
 
-	</main>
-	<!-- Начало блока footer -->
-	<footer class="footer">
 
-	</footer>
+  </main>
+  <!-- Начало блока footer -->
+  <footer class="footer">
+
+  </footer>
 
 
 </body>

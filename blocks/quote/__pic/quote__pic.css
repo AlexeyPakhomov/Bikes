@@ -1,0 +1,5 @@
+.quote__pic {
+  max-width: 650px;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,7 @@
+.general__container {
+  max-width: calc(194px + 30px + 132px);
+  margin: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

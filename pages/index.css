@@ -2,3 +2,33 @@
 @import url(../vendor/fonts.css);
 /* Общие стили */
 @import url(../blocks/root/root.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/content/content.css);
+/* Header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
+/* General */
+@import url(../blocks/general/general.css);
+@import url(../blocks/decoration-title/decoration-title.css);
+@import url(../blocks/decoration-text/decoration-text.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/general/__container/general__container.css);
+@import url(../blocks/general/__subtext/general__subtext.css);
+@import url(../blocks/general/__line/general__line.css);
+@import url(../blocks/general/__block-pic/general__block-pic.css);
+@import url(../blocks/general/__pic/general__pic.css);
+/* Секция quote */
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__pic/quote__pic.css);
+@import url(../blocks/quote/__title/quote__title.css);
+@import url(../blocks/quote/__quote-author/quote__quote-author.css);
+@import url(../blocks/quote/__quote-author-subline/quote__quote-author-subline.css);
+/* Секция highway */
+@import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__pic-container/highway__pic-container.css);
+@import url(../blocks/highway/__container-rectangle/highway__container-rectangle.css);
+@import url(../blocks/highway/__pic/highway__pic.css);
+@import url(../blocks/highway/__rectangle/highway__rectangle.css);
+@import url(../blocks/highway/__pic-hidden/highway__pic-hidden.css);
+@import url(../blocks/sliders/sliders.css);

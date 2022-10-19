@@ -1,0 +1,14 @@
+.button {
+  max-width: 160px;
+  padding: 16px 10px;
+  margin: 50px auto 167px 0;
+  display: block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #24B47E;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
