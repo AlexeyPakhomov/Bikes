@@ -8,3 +8,12 @@
     gap: 30px;
     padding-top: 120px;
 }
+
+@media screen and (max-width: 599px){
+  .bikes__cards {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: start;
+
+    padding-top: 20px;
+  }}

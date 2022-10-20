@@ -12,3 +12,27 @@
         "text pic"
         "links pic";
 }
+
+@media screen and (max-width: 1100px){
+.training {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, minmax(min-content, max-content));
+  grid-template-areas:
+      "title"
+      "pic"
+      "text"
+      "links";
+
+  align-items: 0;
+  justify-items: center;
+  row-gap: 40px;
+  padding: 18px;
+
+}
+}
+@media screen and (max-width: 599px){
+  .training {
+    justify-items: start;
+    padding: 40px 18px 60px 18px;
+  }}
+

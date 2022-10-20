@@ -5,5 +5,17 @@
 
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;    
+    line-height: 22px;
 }
+@media screen and (max-width: 599px){
+.bikes__name{
+  padding: 0;
+  position: absolute;
+  top: 272px;
+  left: 72px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+}}
