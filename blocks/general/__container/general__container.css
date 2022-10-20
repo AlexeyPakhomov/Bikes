@@ -5,3 +5,10 @@
   align-items: center;
   gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .general__container {
+    visibility: hidden;
+    display: none;
+  }
+}

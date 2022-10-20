@@ -3,3 +3,16 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1400px) {
+  .quote__pic {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quote__pic {
+    min-height: 235px;
+  }
+}
