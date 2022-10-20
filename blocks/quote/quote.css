@@ -1,5 +1,4 @@
 .quote {
-  max-width: 1440px;
   padding: 120px 0 60px 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
