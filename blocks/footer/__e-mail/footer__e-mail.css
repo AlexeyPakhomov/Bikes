@@ -13,3 +13,6 @@
     border-radius: 4px;
     background-color:#EFEFEF;
 }
+.footer__e-mail::placeholder{
+  color:#151515;
+}
