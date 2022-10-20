@@ -4,5 +4,10 @@
     padding-inline: 0;
 
     display: flex;
-    gap: 40px;    
+    gap: 40px;
+}
+@media screen and (max-width: 599px){
+  .bikes__navs{
+    display: block;
+  }
 }
