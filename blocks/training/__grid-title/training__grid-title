@@ -1,0 +1,3 @@
+.training__grid-title{
+    grid-area: title;
+}

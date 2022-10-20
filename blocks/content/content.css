@@ -1,5 +1,6 @@
 .content {
-  position: absolute;
+  /*position: absolute;*/
   max-width: 1440px;
-  top: 74px;
+  /*top: 74px;*/
+  padding-top: 74px;
 }

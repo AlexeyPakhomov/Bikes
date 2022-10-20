@@ -1,0 +1,6 @@
+.bikes__title-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
