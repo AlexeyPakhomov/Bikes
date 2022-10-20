@@ -7,3 +7,23 @@
   line-height: 1.29;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 1400px) {
+  .quote__title {
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .quote__title {
+    max-width: 370px;
+    font-size: 23px;
+    margin-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .quote__title {
+    margin-bottom: 10%;
+  }
+}
