@@ -3,3 +3,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+@media screen and (max-width: 1100px) {
+  .general {
+    padding-left: 60px;
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+  .general {}
+}

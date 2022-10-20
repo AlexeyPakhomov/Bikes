@@ -6,3 +6,10 @@
   line-height: 1.09;
   letter-spacing: -0.5px;
 }
+
+@media screen and (max-width: 768px) {
+  .decoration-title {
+    max-width: 350px;
+    font-size: 45px;
+  }
+}
