@@ -1,0 +1,11 @@
+.bikes__background{
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0px 20px 140px rgb(0 0 0 / 6%);
+}

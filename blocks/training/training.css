@@ -1,0 +1,15 @@
+.training{
+    max-width: 1440px;
+    padding: 150px 120px 120px 120px;
+
+    display: grid;
+    justify-content: space-between;
+    column-gap: 30px;
+
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    grid-template-rows: 60px 190px auto;
+    grid-template-areas:
+        "title pic"
+        "text pic"
+        "links pic";
+}

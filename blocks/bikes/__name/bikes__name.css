@@ -1,0 +1,9 @@
+.bikes__name{
+    margin-block: 0;
+
+    padding: 22px 0 0 6px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;    
+}
