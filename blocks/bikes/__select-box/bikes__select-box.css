@@ -3,8 +3,7 @@
 }
 
 @media screen and (max-width: 599px) {
-  .bikes__select-box {
-    display: block;
-    padding-top: 40px;
-  }
+.bikes__select-box {
+  display: block;
+}
 }

@@ -1,6 +1,16 @@
 .bikes__title-box {
+  padding-top: 40px;
+
+  border-top: 1px solid #E3E3E3;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
+  gap: 40px;
+}
+@media screen and (max-width: 599px) {
+  .bikes__title-box {
+    gap: 0;
+  }
 }
