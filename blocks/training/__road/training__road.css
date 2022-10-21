@@ -5,7 +5,20 @@
 
   /* background-image: url(../../../images/road.jpg); */
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1100px){
+  .training__road{
+  display: flex;
+}
+}
+
+@media screen and (max-width: 599px){
+  .training__road{
+    width: 284px;
+    height: 225px;
+}
 }

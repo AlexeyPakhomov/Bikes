@@ -52,6 +52,11 @@
 @import url(../blocks/bikes/__navs/bikes__navs.css);
 @import url(../blocks/bikes/__title-box/bikes__title-box.css);
 @import url(../blocks/bikes/bikes.css);
+@import url(../blocks/bikes/__select/bikes__select.css);
+@import url(../blocks/bikes/__select-box/bikes__select-box.css);
+@import url(../blocks/bikes/__dot/bikes__dot.css);
+@import url(../blocks/bikes/__dot-active/bikes__dot-active.css);
+@import url(../blocks/bikes/__dots/bikes__dots.css);
 
 /* Секция training */
 @import url(../blocks/training/__link/training__link.css);
