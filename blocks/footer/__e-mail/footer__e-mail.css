@@ -17,6 +17,7 @@
 
 @media screen and (max-width: 599px) {
   .footer__e-mail {
-    max-width: calc(100% - 36px);
+    max-width: 284px;
+    box-sizing: border-box;
   }
 }
