@@ -1,0 +1,16 @@
+.general__text {
+  grid-area: general__text;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .general__text {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .general__text {
+    margin-bottom: 0;
+  }
+}

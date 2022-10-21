@@ -15,6 +15,8 @@
 <body class="root">
   <!-- Шапка сайта, блок header -->
   <header class="header">
+    <input type="checkbox" id="burger">
+    <label for="burger"></label>
     <nav>
       <ul class="header__menu list">
         <li>
@@ -34,25 +36,22 @@
   <main class="content">
     <!-- Секция general -->
     <section class="general">
-      <div>
-        <h1 class="decoration-title">Шоссе, ТТ и&nbsp;Грэвел</h1>
-        <p class="decoration-text">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
-          маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
-        <a class="button link" href="#" target="_blank">Подробнее</a>
-        <div class="general__container">
-          <p class="general__subtext">Cannondale Systemsix</p>
-          <div class="general__line"></div>
-        </div>
+      <h1 class="decoration-title general__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+      <p class="decoration-text general__text">Триатлонные старты, горные серпантины или грейвел заезды
+        по&nbsp;живописным
+        маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
+      <a class="button link" href="#" target="_blank">Подробнее</a>
+      <div class="general__container">
+        <p class="general__subtext">Cannondale Systemsix</p>
+        <div class="general__line"></div>
       </div>
-      <div class="general__block-pic">
-        <img class="general__pic" src="./images/Section-1.jpg" alt="Трасса-в-лесу">
-      </div>
+      <img class="general__block-pic" src="./images/Section-1.jpg" alt="Трасса-в-лесу">
     </section>
     <!-- Секция quote -->
     <section class="quote">
       <img class="quote__pic" src="./images/Section-2.jpg" alt="Велосипедист в горах">
       <div class="quote__author-container">
-        <blockquote class="quote__title">&laquo;Катайся много или мало, долго или коротко, как хочешь&nbsp;&mdash;
+        <blockquote class="quote__title">&laquo;Катайся много или мало, долго или коротко, как хочешь -
           но&nbsp;катайся&raquo;</blockquote>
         <h3 class="quote__quote-author">Эдди Меркс</h3>
         <p class="quote__quote-author-subline">Велогонщик</p>
@@ -60,8 +59,9 @@
     </section>
     <!-- Секция highway -->
     <section class="highway" id="Покрытия-и-градиенты">
-      <h2 class="decoration-title">Шоссе</h2>
-      <p class="decoration-text">На&nbsp;шоссейном велосипеде можно ездить по асфальту на&nbsp;разных градиентах:
+      <h2 class="decoration-title highway__title">Шоссе</h2>
+      <p class="decoration-text highway__text">На&nbsp;шоссейном велосипеде можно ездить по асфальту на&nbsp;разных
+        градиентах:
         будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно
         и&nbsp;самостоятельно.</p>
       <ul class="highway__pic-container list">
@@ -77,15 +77,15 @@
       </ul>
       <ul class="sliders list">
         <li>
-          <img class="link" src="./images/sliders__left.svg" alt="Слайдер влево">
+          <img class="sliders__left link" src="./images/sliders__left.svg" alt="Слайдер влево">
         </li>
         <li>
-          <img class="link" src="./images/sliders__right.svg" alt="Слайдер вправо">
+          <img class="sliders__right link" src="./images/sliders__right.svg" alt="Слайдер вправо">
         </li>
       </ul>
     </section>
     <!-- Код Лизы -->
-    <section class="bikes" id="Велосипеды">
+    <!-- <section class="bikes" id="Велосипеды">
       <div class="bikes__title-box">
         <h2 class="decoration-title">Велосипеды</h2>
         <nav>
@@ -138,7 +138,7 @@
         </li>
       </ul>
       <div class="training__road"></div>
-    </section>
+    </section> -->
   </main>
   <!-- Начало блока footer -->
   <footer class="footer">

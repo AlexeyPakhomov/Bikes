@@ -4,9 +4,10 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  grid-area: general__container;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .general__container {
     visibility: hidden;
     display: none;

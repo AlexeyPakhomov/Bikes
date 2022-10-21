@@ -3,3 +3,10 @@
   max-height: 400px;
   position: relative;
 }
+
+@media screen and (max-width: 320px) {
+  .highway__container-rectangle {
+    width: 284px;
+    height: 175px;
+  }
+}
