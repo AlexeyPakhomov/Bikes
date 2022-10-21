@@ -1,16 +1,41 @@
 .general {
+  box-sizing: border-box;
+  max-width: 1440px;
   padding: 80px 0 0 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 120px 212px 217px minmax(min-content, max-content);
+  align-items: start;
+  column-gap: 2px;
+  grid-template-areas:
+    "general__title general__pic"
+    "general__text general__pic"
+    "general__button general__pic"
+    "general__container general__pic";
 }
 
 @media screen and (max-width: 1100px) {
   .general {
     padding-left: 60px;
+    grid-template-rows: 120px 212px 80px minmax(min-content, max-content);
   }
 }
 
+@media screen and (max-width: 768px) {
+  .general {
+    grid-template-rows: 100px 140px 80px;
+  }
+}
 
 @media screen and (max-width: 599px) {
-  .general {}
+  .general {
+    padding: 40px 18px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 1fr 152px 46px;
+    grid-template-areas:
+      "general__title"
+      "general__pic"
+      "general__text"
+      "general__button";
+  }
 }

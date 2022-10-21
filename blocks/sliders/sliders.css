@@ -2,3 +2,15 @@
   display: flex;
   gap: 20px;
 }
+
+@media screen and (max-width: 599px) {
+  .sliders {
+    grid-area: sliders;
+    padding-top: 40px;
+    max-width: max-content;
+    justify-self: end;
+    align-self: end;
+    z-index: 2;
+    gap: 10px;
+  }
+}

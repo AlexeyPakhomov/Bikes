@@ -1,4 +1,19 @@
 .general__block-pic {
+  grid-area: general__pic;
   justify-self: end;
   margin-top: -60px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .general__block-pic {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .general__block-pic {
+    margin: 0;
+    max-width: calc(100% - 30px);
+  }
 }

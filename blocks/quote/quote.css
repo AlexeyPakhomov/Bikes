@@ -15,6 +15,16 @@
 @media screen and (max-width: 768px) {
   .quote {
     column-gap: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .quote {
+    padding: 40px 18px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "quote-pic"
+      "quote-container";
   }
 }

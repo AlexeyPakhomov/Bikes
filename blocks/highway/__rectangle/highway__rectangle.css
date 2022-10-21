@@ -5,3 +5,11 @@
   bottom: 16px;
   left: 0;
 }
+
+@media screen and (max-width: 599px) {
+  .highway__rectangle {
+    width: 70px;
+    height: 28px;
+    bottom: 14px;
+  }
+}

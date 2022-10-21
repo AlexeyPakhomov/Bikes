@@ -13,6 +13,16 @@
 
 @media screen and (max-width: 768px) {
   .quote__pic {
-    min-height: 235px;
+    /* min-height: 235px; */
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .quote__pic {
+    grid-area: quote-pic;
+    border-top: 1px solid #E3E3E3;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    object-fit: contain;
   }
 }

@@ -1,7 +1,8 @@
 .button {
-  max-width: 160px;
+  width: 160px;
+  max-height: 18px;
   padding: 16px 10px;
-  margin: 50px auto 167px 0;
+  margin: 0 auto 167px 0;
   display: block;
   font-weight: 600;
   font-size: 14px;
@@ -11,6 +12,7 @@
   background-color: #24B47E;
   border-radius: 4px;
   color: #FFFFFF;
+  grid-area: general__button;
 }
 
 .button:hover {
@@ -21,19 +23,30 @@
 
 @media screen and (max-width: 1100px) {
   .button {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
   .button {
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
   .button {
-    max-width: 100px;
-    margin: 25px auto 25px 0;
+    grid-area: general__button;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 14px 62px 13px;
+    max-height: 19px;
+    font-size: 13px;
+    line-height: 1.46;
+  }
+
+  .button:hover {
+    scale: 1.05;
+    background-color: black;
+    transition: 3s;
   }
 }
