@@ -1,13 +1,12 @@
-.bikes__dots{
+.bikes__dots {
   display: none;
 }
 
-@media screen and (max-width: 599px){
-.bikes__dots{
+@media screen and (max-width: 599px) {
+  .bikes__dots {
 
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-
-}
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
 }

@@ -1,3 +1,12 @@
-.training__grid-title{
-    grid-area: title;
+.training__grid-title {
+  grid-area: title;
+}
+
+@media screen and (max-width: 599px) {
+  .training__grid-title {
+    min-width: calc(100% - 36px);
+    margin: 0;
+    padding: 40px 0;
+    border-top: 1px solid #E3E3E3;
+  }
 }

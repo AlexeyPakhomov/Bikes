@@ -1,4 +1,16 @@
-.training__grid-text{
+.training__grid-text {
   grid-area: text;
-  padding-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .training__grid-text {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .training__grid-text {
+    padding: 0;
+    padding: 40px 0;
+  }
 }

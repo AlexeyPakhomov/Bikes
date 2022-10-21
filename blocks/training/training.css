@@ -1,10 +1,8 @@
 .training {
   padding: 150px 120px 120px 120px;
-
   display: grid;
   justify-content: space-between;
   column-gap: 30px;
-
   grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
   grid-template-rows: 60px 190px auto;
   grid-template-areas:
@@ -15,25 +13,29 @@
 
 @media screen and (max-width: 1100px) {
   .training {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, minmax(min-content, max-content));
-    grid-template-areas:
-      "title"
-      "pic"
-      "text"
-      "links";
+    padding: 60px 0 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px auto auto;
+    column-gap: 10px;
+  }
+}
 
-    align-items: 0;
-    justify-items: center;
-    row-gap: 40px;
-    padding: 18px;
-
+@media screen and (max-width: 768px) {
+  .training {
+    column-gap: 5px;
   }
 }
 
 @media screen and (max-width: 599px) {
   .training {
-    justify-items: start;
-    padding: 40px 18px 60px 18px;
+    padding: 40px 18px 60px;
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    grid-template-rows: 120px 1fr 170px 20px;
+    grid-template-areas:
+      "title"
+      "pic"
+      "text"
+      "links";
   }
 }

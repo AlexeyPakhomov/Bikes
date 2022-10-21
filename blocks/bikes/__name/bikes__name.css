@@ -1,21 +1,20 @@
-.bikes__name{
-    margin-block: 0;
+.bikes__name {
+  margin-block: 0;
+  padding: 22px 0 0 6px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
 
-    padding: 22px 0 0 6px;
+@media screen and (max-width: 599px) {
+  .bikes__name {
+    padding: 0;
+    position: absolute;
+    top: 272px;
+    left: 72px;
 
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
-@media screen and (max-width: 599px){
-.bikes__name{
-  padding: 0;
-  position: absolute;
-  top: 272px;
-  left: 72px;
-
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-
-}}

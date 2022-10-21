@@ -1,24 +1,25 @@
 .training__road {
   grid-area: pic;
-  width: 580px;
-  height: 460px;
-
-  /* background-image: url(../../../images/road.jpg); */
+  max-width: 580px;
+  height: auto;
+  object-fit: contain;
+  /* background-image: url(../../../images/road.jpg);
   background-position: center;
   background-size: cover;
-
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
-@media screen and (max-width: 1100px){
-  .training__road{
-  display: flex;
-}
+@media screen and (max-width: 1100px) {
+  .training__road {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
 }
 
-@media screen and (max-width: 599px){
-  .training__road{
-    width: 284px;
-    height: 225px;
-}
+@media screen and (max-width: 599px) {
+  .training__road {
+    max-width: 100%;
+    object-fit: contain;
+  }
 }

@@ -1,15 +1,21 @@
-.training__links{
+.training__links {
   grid-area: links;
-
   list-style: none;
   margin-block: 0;
   padding-inline: 0;
-
   display: flex;
   gap: 30px;
   padding-top: 182px;
 }
-@media screen and (max-width: 599px){
-.training__links {
-  padding-top: 0;
-}}
+
+@media screen and (max-width: 1100px) {
+  .training__links {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .training__links {
+    padding-top: 0;
+  }
+}

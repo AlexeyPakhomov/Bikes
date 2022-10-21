@@ -1,15 +1,16 @@
-.bikes__nav{
-    border: none;
-    background-color: inherit;
-    padding: 0;
+.bikes__nav {
+  border: none;
+  background-color: inherit;
+  padding: 0;
 
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 
-    color: #222222;
-    opacity: 0.7;
+  color: #222222;
+  opacity: 0.7;
 }
+
 @media screen and (max-width: 599px) {
   .bikes__nav {
     display: none;

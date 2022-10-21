@@ -1,24 +1,27 @@
-.bikes__card{
-    margin-block: 0;
-    list-style: none;
-    padding-inline: 0;
+.bikes__card {
+  margin-block: 0;
+  list-style: none;
+  padding-inline: 0;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.bikes__card:hover{
+
+.bikes__card:hover {
   scale: 1.2;
   border: 1px solid rgb(128, 122, 122);
   box-shadow: 0px 20px 140px rgb(0 0 0 / 8%);
   transition: 4s;
 }
-@media screen and (max-width: 599px){
+
+@media screen and (max-width: 599px) {
   .bikes__card:hover {
     scale: 1;
     border: none;
     box-shadow: none;
   }
-.bikes__card{
-  position: relative;
-}
+
+  .bikes__card {
+    position: relative;
+  }
 }

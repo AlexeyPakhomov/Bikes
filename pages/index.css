@@ -40,35 +40,33 @@
 @import url(../blocks/sliders/sliders.css);
 @import url(../blocks/sliders/__left/sliders__left.css);
 @import url(../blocks/sliders/__right/sliders__right.css);
-/*****/
 /* Секция bikes */
-@import url(../blocks/bikes/__background/bikes__background.css);
-@import url(../blocks/bikes/__card/bikes__card.css);
-@import url(../blocks/bikes/__cards/bikes__cards.css);
-@import url(../blocks/bikes/__image/bikes__image.css);
-@import url(../blocks/bikes/__name/bikes__name.css);
+@import url(../blocks/bikes/bikes.css);
+@import url(../blocks/bikes/__title-box/bikes__title-box.css);
+@import url(../blocks/bikes/__navs/bikes__navs.css);
 @import url(../blocks/bikes/__nav/bikes__nav.css);
 @import url(../blocks/bikes/__nav-active/bikes__nav-active.css);
-@import url(../blocks/bikes/__navs/bikes__navs.css);
-@import url(../blocks/bikes/__title-box/bikes__title-box.css);
-@import url(../blocks/bikes/bikes.css);
-@import url(../blocks/bikes/__select/bikes__select.css);
 @import url(../blocks/bikes/__select-box/bikes__select-box.css);
+@import url(../blocks/bikes/__select/bikes__select.css);
+@import url(../blocks/bikes/__cards/bikes__cards.css);
+@import url(../blocks/bikes/__card/bikes__card.css);
+@import url(../blocks/bikes/__background/bikes__background.css);
+@import url(../blocks/bikes/__image/bikes__image.css);
+@import url(../blocks/bikes/__name/bikes__name.css);
+@import url(../blocks/bikes/__dots/bikes__dots.css);
 @import url(../blocks/bikes/__dot/bikes__dot.css);
 @import url(../blocks/bikes/__dot-active/bikes__dot-active.css);
-@import url(../blocks/bikes/__dots/bikes__dots.css);
-
 /* Секция training */
+@import url(../blocks/training/training.css);
+@import url(../blocks/training/__grid-title/training__grid-title.css);
+@import url(../blocks/training/__grid-text/training__grid-text.css);
 @import url(../blocks/training/__link/training__link.css);
 @import url(../blocks/training/__links/training__links.css);
 @import url(../blocks/training/__road/training__road.css);
-@import url(../blocks/training/training.css);
-@import url(../blocks/training/__grid-text/training__grid-text.css);
-@import url(../blocks/training/__grid-title/training__grid-title);
 
 /* Секция footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__form/footer__form.css);
 @import url(../blocks/footer/__e-mail/footer__e-mail.css);
 @import url(../blocks/footer/__end/footer__end.css);
-@import url(../blocks/footer/__form/footer__form.css);
-@import url(../blocks/footer/__title/footer__title.css);
-@import url(../blocks/footer/footer.css);

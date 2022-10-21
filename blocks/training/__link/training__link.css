@@ -1,13 +1,14 @@
-.training__link{
-    text-decoration: none;
-
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #151515;
+.training__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #151515;
 }
-@media screen and (max-width: 599px){
-.training__link{
-  font-size: 14px;
-  line-height: 20px;
-}}
+
+@media screen and (max-width: 599px) {
+  .training__link {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

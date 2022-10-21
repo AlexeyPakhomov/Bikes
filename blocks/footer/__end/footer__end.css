@@ -1,10 +1,8 @@
-.footer__end{
-    margin-block: 0;
-
-    padding-top: 100px;
-
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: #CFCFCF;    
+.footer__end {
+  margin-block: 0;
+  padding-top: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #CFCFCF;
 }

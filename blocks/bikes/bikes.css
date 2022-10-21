@@ -1,8 +1,9 @@
-.bikes{
-    padding: 60px 120px 60px 120px;
+.bikes {
+  padding: 60px 120px 60px 120px;
 }
-@media screen and (max-width: 599px){
-  .bikes{
+
+@media screen and (max-width: 599px) {
+  .bikes {
     padding: 80px 18px 40px 18px;
-}
+  }
 }
